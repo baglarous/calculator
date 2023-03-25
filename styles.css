@@ -1,0 +1,38 @@
+.container {
+    background-color: rgb(216, 157, 157);
+    height: 700px;
+    width: 500px;
+    position: relative;
+    margin-left: 350px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen {
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 80%;
+    margin-top: 50px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    
+}
